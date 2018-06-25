@@ -6,6 +6,13 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace MVCSecurity.Models
 {
+    public static class SecurityRoles
+    {
+        public static string CanViewClolthingDetails = "CanViewClothingDetails";
+        public static string CanEditClolthingDetails = "CanEditClothingDetails";
+        public static string CanDeleteClolthingDetails = "CanDeleteClothingDetails";
+
+    }
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
     {

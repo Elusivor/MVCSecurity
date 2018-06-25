@@ -13,6 +13,7 @@ namespace MVCSecurity.Models
         public string Description { get; set; }
         public int Size { get; set; }
         public bool CanDryClean { get; set; }
+        [DataType(DataType.Date)]
         public DateTime FirstProduced { get; set; }
     }
 }
